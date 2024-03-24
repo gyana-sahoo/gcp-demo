@@ -1,4 +1,4 @@
-# The Docker image contains the following code
+# The Docker image contains the following code to demo
 from flask import Flask
 import os
 import socket
