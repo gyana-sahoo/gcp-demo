@@ -1,4 +1,4 @@
-# The Docker image contains the following code to demo
+# The Docker image contains the following code to demo for Seiza.ai
 from flask import Flask
 import os
 import socket
