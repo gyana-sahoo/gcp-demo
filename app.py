@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    html = "<h1 style='text-align:center;margin:20px;'>Greetings to everyone at Shiza.ai in this training </h1>  <BR> <CENTER><IMG SRC=\"picture2.png\" ALIGN=\"BOTTOM\"> </CENTER>>"
+    html = "<h1 style='text-align:center;margin:20px;'>Greetings to everyone at Shiza.ai in this training </h1>  <BR> <h2 style='text-align:center;margin:20px;'> The web page is rendered from one of the Docker containers.... </h2>"
     return html
 
 if __name__ == "__main__":
